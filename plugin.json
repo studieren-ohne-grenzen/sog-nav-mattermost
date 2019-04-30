@@ -1,0 +1,7 @@
+{
+    "id": "org.studieren-ohne-grenzen.sog-nav-mattermost",
+    "name": "SoG Mattermost Navigation",
+    "webapp": {
+        "bundle_path": "main.js"
+    }
+}
