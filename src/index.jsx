@@ -1,39 +1,7 @@
-import React from 'react';
-
-import Icon from './components/icons.jsx';
-
-import {Svgs} from 'resources';
+import "resources/nav/index.js"
 
 class SOGNavPlugin {
     initialize(registry, store) {
-        registry.registerChannelHeaderButtonAction(
-            <Icon svg={Svgs.DASHBOARD} />,
-            () => {
-                alert("Dasboard!");
-            },
-            "Dashboard",
-        );
-        registry.registerChannelHeaderButtonAction(
-            <Icon svg={Svgs.MAIL} />,
-            () => {
-                alert("Mail!");
-            },
-            "Mail",
-        );
-        registry.registerChannelHeaderButtonAction(
-            <Icon svg={Svgs.CRM} />,
-            () => {
-                alert("CRM!");
-            },
-            "CRM",
-        );
-        registry.registerChannelHeaderButtonAction(
-            <Icon svg={Svgs.WIKI} />,
-            () => {
-                alert("Wiki!");
-            },
-            "Wiki",
-        );
     }
 }
 
