@@ -1,0 +1,25 @@
+{
+  "name": "sog-nav-mattermost",
+  "version": "1.0.0",
+  "description": "1. Install `npm` (oh no) 2. Run `npm install` (oh noo) 3. (Manually install everything else that npm might complain about not having) 4. Run `make`",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.3",
+    "webpack-cli": "^3.3.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/studieren-ohne-grenzen/sog-nav-mattermost.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/studieren-ohne-grenzen/sog-nav-mattermost/issues"
+  },
+  "homepage": "https://github.com/studieren-ohne-grenzen/sog-nav-mattermost#readme"
+}
