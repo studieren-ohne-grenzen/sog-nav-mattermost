@@ -4,11 +4,13 @@
   "description": "1. Install `npm` (oh no) 2. Run `npm install` (oh noo) 3. (Manually install everything else that npm might complain about not having) 4. Run `make`",
   "main": "webpack.config.js",
   "dependencies": {
+    "@babel/preset-env": "^7.13.12",
+    "@babel/preset-react": "^7.13.13",
+    "@babel/runtime": "^7.13.10",
     "babel-loader": "^8.0.6",
     "webpack": "^4.41.3",
     "webpack-cli": "^3.3.10"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
